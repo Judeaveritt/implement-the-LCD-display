@@ -24,21 +24,21 @@ Keep your DHT11 connected from the previous lab.
 
 Connect the LCD using the following pins:
 
-| LCD Pin | Name | Connection | Purpose |
+| LCD Pin | Connection | Name | Purpose |
 |---|---|---|---|
-| 1 | VSS | GND | Ground |
-| 2 | VDD | 5V | Power |
-| 3 | VO | Potentiometer middle pin | Adjusts contrast |
-| 4 | RS | Digital Pin 12 | Selects commands or data |
-| 5 | RW | GND | Sets write mode |
-| 6 | E | Digital Pin 11 | Enables data transfer |
-| 7–10 | D0–D3 | Not connected | Unused data pins |
-| 11 | D4 | Digital Pin 5 | Data bit 4 |
-| 12 | D5 | Digital Pin 4 | Data bit 5 |
-| 13 | D6 | Digital Pin 3 | Data bit 6 |
-| 14 | D7 | Digital Pin 2 | Data bit 7 |
-| 15 | A | 5V | Backlight power |
-| 16 | K | GND | Backlight ground |
+| 1 | GND | VSS | Ground |
+| 2 | 5V | VDD | Power |
+| 3 | Potentiometer middle pin | VO | Adjusts contrast |
+| 4 | Digital Pin 6 | RS | Selects commands or data |
+| 5 | GND | RW | Sets write mode |
+| 6 | Digital Pin 7 | E | Enables data transfer |
+| 7–10 | Not connected | D0–D3 | Unused data pins |
+| 11 | Digital Pin 8 | D4 | Data bit 4 |
+| 12 | Digital Pin 9 | D5 | Data bit 5 |
+| 13 | Digital Pin 10 | D6 | Data bit 6 |
+| 14 | Digital Pin 11 | D7 | Data bit 7 |
+| 15 | 5V | A | Backlight power |
+| 16 | GND | K | Backlight ground |
 
 The LCD uses 4-bit mode, meaning it sends data through four data pins (D4–D7).
 
